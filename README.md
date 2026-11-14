@@ -27,6 +27,11 @@ Magpie 资源库 →「指令」写入本引导内容，各 agent 由 Magpie 统
 - 其余 `soul/rules/*.md`：命中 SOUL.md §T 触发表信号词时读取
 - `soul/references/*.md`：仅在条款指向时读取
 
+## 版本历史
+
+- v5.1-full（full-inline-v5.1 分支）：全量单文件 AGENTS.md（宪法层+12规则组内联，≈99KB），分层加载架构退役
+- v5.0-layered（tag）：分层版（SOUL.md 常驻 + rules/ 按信号加载 + references/ 按需），已被全量方案取代
+
 ## 治理
 
 规程修改走 `soul/rules/meta.md` M 组流程。版本演进以 SOUL.md 内版本行与变更记录为准。
